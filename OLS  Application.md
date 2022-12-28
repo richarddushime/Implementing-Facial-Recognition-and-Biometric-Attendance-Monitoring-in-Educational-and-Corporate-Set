@@ -1,41 +1,42 @@
 
-## ** Open Life Science Application **
+## ***Open Life Science Application***
 
-***Title**
+***Title***
+
  Implementing Facial Recognition and Biometric Attendance Monitoring in Educational and Corporate Settings 
 
-**TL;DR**
+***TL;DR***
 > This project aims to design and implement a system for tracking attendance using facial recognition or biometric technology in educational and corporate settings, considering the technical, ethical, and privacy implications of using such technology. 
 
-***Authors**
+***Authors***
 Dushime Mudahera Richard 
 
-***Country**
+***Country***
 
 Uganda
 
-***Affiliation**
+***Affiliation***
 
 Project developed by Dushime Mudahera Richard ( Bugema University)
 
-**Pronouns**
+***Pronouns***
 
 <He/Him>
 
-**Keywords**
+***Keywords***
 
 > Attendance tracking , Facial recognition , Biometric technology , Educational settings , Corporate settings , Data management , Data privacy , Ethics , Machine learning , Artificial intelligence , Python , Django , Web development , Cloud computing, Data visualization , Project management
 
-***Project**
+***Project***
 
 > This project aims to design and implement a system for tracking attendance using facial recognition or biometric technology in educational and corporate settings. The project will begin by reviewing current attendance tracking systems and analyzing various facial recognition and biometric technologies. Based on this analysis, a suitable technology will be chosen and a prototype system will be developed. The project will also consider the ethical and privacy implications of using such technology and develop strategies to mitigate any potential risks. The end result will be a functional system for tracking attendance and a report detailing the technical, ethical, and privacy considerations involved. This system will provide a reliable and efficient solution for tracking attendance in educational and corporate settings while addressing ethical and privacy concerns.
 
 
-***Problem**
+***Problem***
 
 > There is a need for a reliable and efficient system for tracking attendance in educational and corporate settings. Currently, many schools and companies rely on manual attendance tracking methods, such as sign-in sheets or ID card swipes, which can be time-consuming and prone to errors. There is also a growing concern about the ethical and privacy implications of using such methods, particularly in light of the increasing availability of facial recognition and biometric technology. As a result, there is a need for a solution that combines the reliability and efficiency of attendance tracking with the ethical and privacy considerations of using such technology.
 
-***Achievements**
+***Achievements***
 
 During the Open Life Science program, the main achievements we hope to accomplish for the "Implementing Facial Recognition and Biometric Attendance Monitoring in Educational and Corporate Settings" project are as follows:
 
@@ -48,15 +49,15 @@ During the Open Life Science program, the main achievements we hope to accomplis
 *  Consider ethical and privacy implications: We will research and evaluate the potential risks and benefits of using facial recognition or biometric technology for attendance tracking, and develop strategies to mitigate any potential risks.
 
 
-***Status**
+***Status***
 
 * I have a great idea
    
-***Goal**
+***Goal***
 
 * Working on new release/feature on an existing prototype
 
-***Open**
+***Open***
 
 There are several reasons why i am  inspired to work openly in research:
 
@@ -70,7 +71,7 @@ There are several reasons why i am  inspired to work openly in research:
 
 In conclusion, working openly in research can lead to greater impact and collaboration, as well as more ethical and transparent practices, which are all important considerations for researchers.
 
-***Challenges**
+***Challenges***
 
 There are several challenges that i or any researcher  may face while working in open science:
 
@@ -86,7 +87,7 @@ There are several challenges that i or any researcher  may face while working in
 
 Overall, while open science has the potential to drive innovation and impact, it also presents a number of challenges for researchers.
 
-***Learning**
+***Learning***
 
 As a participant in the OLS program, my learning goals are :
 
@@ -98,7 +99,7 @@ As a participant in the OLS program, my learning goals are :
 
 Overall, my learning goals in the OLS program are focused on developing my skills and understanding in open science practices, as well as building a network of like-minded researchers who can support and collaborate with me in my work.
 
-***Mentor**
+***Mentor***
 
 As a participant in the Open Life Science program, some potential expectations from  a mentor  include:
 
@@ -115,18 +116,18 @@ Overall, he will  play a valuable role in supporting the team and helping us to 
 
 *Other OLS applications
 Have you applied to OLS before, or are you applying as an author on more than one project in this round of applications? If yes, please share the project name and which round(s) you applied to OLS in, e.g. "OLS-5, Open Science Writing Guide".
-< No >
+> No 
 
 
-***Accessibility**
+***Accessibility***
 
 This is my first time participating in this program 
 
-***Language**
+***Language***
 
  - English 
 
-***Scheme**
+***Scheme***
 
 * None
 
