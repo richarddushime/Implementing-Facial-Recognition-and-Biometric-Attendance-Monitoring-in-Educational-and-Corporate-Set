@@ -1,66 +1,43 @@
 
-## **Step 2: Template to prepare your application draft**
+## ** Open Life Science Application **
 
 ***Title**
-
-_Project Name. Please note that your project doesn’t have to be technical — it can be a curriculum (open educational resource), an open data project, documentation or report, an open source software project, open publication, community building, team culture movements, or anything else that supports openness in research communities, have something to work on (a feature, module, or minimum viable product) during the program and allows and welcomes contributions by others. Whether your project is just an idea at this stage or something that’s been running for years, all applications are welcome.
-< Implementing Facial Recognition and Biometric Attendance Monitoring in Educational and Corporate Settings >
+ Implementing Facial Recognition and Biometric Attendance Monitoring in Educational and Corporate Settings 
 
 **TL;DR**
-
-_"Too Long; Didn't Read": a short sentence describing your proposal_
-
-< This project aims to design and implement a system for tracking attendance using facial recognition or biometric technology in educational and corporate settings, considering the technical, ethical, and privacy implications of using such technology. >
+> This project aims to design and implement a system for tracking attendance using facial recognition or biometric technology in educational and corporate settings, considering the technical, ethical, and privacy implications of using such technology. 
 
 ***Authors**
-
-_Search author profile by first, middle and last name or email address. If the profile is not found, you can add the author by completing first, middle, and last names as well as the author email address._
-
-<Dushime Mudahera Richard >
+Dushime Mudahera Richard 
 
 ***Country**
 
-_Country of residence. Comma-separated list of countries, if different for different authors._
-
-<Uganda>
+Uganda
 
 ***Affiliation**
 
-_Please provide the affiliation under which your project will be developed. Comma-separated list of affiliation, if different for different authors._
-
-<Project developed by Dushime Richard ( Bugema University), and any other i may add later >
+Project developed by Dushime Mudahera Richard ( Bugema University)
 
 **Pronouns**
-
-_Please share preferred pronouns (optional). Comma-separated list of pronouns, if different for different authors._
 
 <He/Him>
 
 **Keywords**
 
-_Comma-separated list of keywords that best describe the research and interest areas of your project._
-
-<Attendance tracking , Facial recognition , Biometric technology , Educational settings , Corporate settings , Data management , Data privacy , Ethics , Machine learning , Artificial intelligence , Python , Django , Web development , Cloud computing, Data visualization , Project management>
+> Attendance tracking , Facial recognition , Biometric technology , Educational settings , Corporate settings , Data management , Data privacy , Ethics , Machine learning , Artificial intelligence , Python , Django , Web development , Cloud computing, Data visualization , Project management
 
 ***Project**
 
-_Describe your project in a maximum of 200 words. You can use MarkDown formatting (see:[ https://commonmark.org/help/](https://commonmark.org/help/))._
+> This project aims to design and implement a system for tracking attendance using facial recognition or biometric technology in educational and corporate settings. The project will begin by reviewing current attendance tracking systems and analyzing various facial recognition and biometric technologies. Based on this analysis, a suitable technology will be chosen and a prototype system will be developed. The project will also consider the ethical and privacy implications of using such technology and develop strategies to mitigate any potential risks. The end result will be a functional system for tracking attendance and a report detailing the technical, ethical, and privacy considerations involved. This system will provide a reliable and efficient solution for tracking attendance in educational and corporate settings while addressing ethical and privacy concerns.
 
-< This project aims to design and implement a system for tracking attendance using facial recognition or biometric technology in educational and corporate settings. The project will begin by reviewing current attendance tracking systems and analyzing various facial recognition and biometric technologies. Based on this analysis, a suitable technology will be chosen and a prototype system will be developed. The project will also consider the ethical and privacy implications of using such technology and develop strategies to mitigate any potential risks. The end result will be a functional system for tracking attendance and a report detailing the technical, ethical, and privacy considerations involved. This system will provide a reliable and efficient solution for tracking attendance in educational and corporate settings while addressing ethical and privacy concerns.
->
 
 ***Problem**
 
-_What problem(s) are you solving with this project? Please describe in a maximum of 200 words. You can use MarkDown formatting (see:[ https://commonmark.org/help/](https://commonmark.org/help/))._
-
-< There is a need for a reliable and efficient system for tracking attendance in educational and corporate settings. Currently, many schools and companies rely on manual attendance tracking methods, such as sign-in sheets or ID card swipes, which can be time-consuming and prone to errors. There is also a growing concern about the ethical and privacy implications of using such methods, particularly in light of the increasing availability of facial recognition and biometric technology. As a result, there is a need for a solution that combines the reliability and efficiency of attendance tracking with the ethical and privacy considerations of using such technology.
- >
+> There is a need for a reliable and efficient system for tracking attendance in educational and corporate settings. Currently, many schools and companies rely on manual attendance tracking methods, such as sign-in sheets or ID card swipes, which can be time-consuming and prone to errors. There is also a growing concern about the ethical and privacy implications of using such methods, particularly in light of the increasing availability of facial recognition and biometric technology. As a result, there is a need for a solution that combines the reliability and efficiency of attendance tracking with the ethical and privacy considerations of using such technology.
 
 ***Achievements**
 
-_What concrete achievements do you want to accomplish during the OLS program? Please describe in a maximum of 200 words. You can use MarkDown formatting (see:[ https://commonmark.org/help/](https://commonmark.org/help/))._
-
-< During the Open Life Science program, the main achievements we hope to accomplish for the "Implementing Facial Recognition and Biometric Attendance Monitoring in Educational and Corporate Settings" project are as follows:
+During the Open Life Science program, the main achievements we hope to accomplish for the "Implementing Facial Recognition and Biometric Attendance Monitoring in Educational and Corporate Settings" project are as follows:
 
 * Review current attendance tracking systems and technologies: We will conduct a review of the various attendance tracking systems and technologies currently in use, including their accuracy and reliability. This will provide a baseline for evaluating the potential of facial recognition and biometric technology as a solution.
 
@@ -70,61 +47,48 @@ _What concrete achievements do you want to accomplish during the OLS program? Pl
 
 *  Consider ethical and privacy implications: We will research and evaluate the potential risks and benefits of using facial recognition or biometric technology for attendance tracking, and develop strategies to mitigate any potential risks.
 
- >
 
 ***Status**
 
-_What is the current status of your project or work? **Choose one option**_
-
-*   I have a great idea
+* I have a great idea
    
 ***Goal**
 
-_Where would you like to be after the OLS program? **Choose one option**_
-
-*   Working on new release/feature on an existing prototype
+* Working on new release/feature on an existing prototype
 
 ***Open**
 
-_What inspires you to work openly in research? Please respond in a maximum of 200 words. You can use MarkDown formatting (see:[ https://commonmark.org/help/](https://commonmark.org/help/))._
+There are several reasons why i am  inspired to work openly in research:
 
-<There are several reasons why i am  inspired to work openly in research:
+* Sharing knowledge: Researchers often work on projects to advance their fields of study and contribute to the broader body of knowledge. By working openly, researchers can share their findings and results with a wider audience, enabling others to build upon their work and further advance the field.
 
-*  Sharing knowledge: Researchers often work on projects to advance their fields of study and contribute to the broader body of knowledge. By working openly, researchers can share their findings and results with a wider audience, enabling others to build upon their work and further advance the field.
+* Collaboration: Open research practices facilitate collaboration and allow researchers to work with others in a transparent and accountable manner. This can lead to more productive and efficient research, as well as more diverse and innovative approaches to solving problems.
 
-*  Collaboration: Open research practices facilitate collaboration and allow researchers to work with others in a transparent and accountable manner. This can lead to more productive and efficient research, as well as more diverse and innovative approaches to solving problems.
+* Impact: Working openly can increase the impact of research by making it more accessible and visible to others. This can lead to greater recognition for the researchers and their work, as well as more opportunities for collaboration and funding.
 
-*  Impact: Working openly can increase the impact of research by making it more accessible and visible to others. This can lead to greater recognition for the researchers and their work, as well as more opportunities for collaboration and funding.
-
-*  Ethical considerations: Open research practices can also help to ensure that research is conducted ethically and transparently. This can include things like sharing data and methods to enable others to replicate and verify results, as well as being open to feedback and criticism from the research community.
+* Ethical considerations: Open research practices can also help to ensure that research is conducted ethically and transparently. This can include things like sharing data and methods to enable others to replicate and verify results, as well as being open to feedback and criticism from the research community.
 
 In conclusion, working openly in research can lead to greater impact and collaboration, as well as more ethical and transparent practices, which are all important considerations for researchers.
->
 
 ***Challenges**
 
-_What challenges have you faced in working in open science? Please respond in a maximum of 200 words. You can use MarkDown formatting (see:[ https://commonmark.org/help/](https://commonmark.org/help/))._
+There are several challenges that i or any researcher  may face while working in open science:
 
-< There are several challenges that i or any researcher  may face while working in open science:
+* Funding: Many researchers rely on grant funding to support their work, and traditional grant funding models may not always support open science practices. This can make it difficult for researchers to justify the time and resources needed to make their work openly available.
 
-*  Funding: Many researchers rely on grant funding to support their work, and traditional grant funding models may not always support open science practices. This can make it difficult for researchers to justify the time and resources needed to make their work openly available.
+* Data sharing: Sharing data can be time-consuming and may require additional resources, such as data management and curation. Researchers may also be concerned about the security and privacy of their data, and may need to put in place measures to protect sensitive information.
 
-*  Data sharing: Sharing data can be time-consuming and may require additional resources, such as data management and curation. Researchers may also be concerned about the security and privacy of their data, and may need to put in place measures to protect sensitive information.
+* Intellectual property: Researchers may be hesitant to share their work openly for fear of losing control over their intellectual property. This can be particularly challenging in cases where researchers are working on proprietary or commercial projects.
 
-*  Intellectual property: Researchers may be hesitant to share their work openly for fear of losing control over their intellectual property. This can be particularly challenging in cases where researchers are working on proprietary or commercial projects.
+* Lack of infrastructure: There may be a lack of infrastructure and support for open science practices within some research organizations, which can make it difficult for researchers to implement open science practices in their work.
 
-*  Lack of infrastructure: There may be a lack of infrastructure and support for open science practices within some research organizations, which can make it difficult for researchers to implement open science practices in their work.
-
-*  Culture change: Adopting open science practices can require a shift in the culture and mindset of researchers and the research community. This can be a challenging process and may require education and support to ensure that open science practices are embraced and integrated into the research process.
+* Culture change: Adopting open science practices can require a shift in the culture and mindset of researchers and the research community. This can be a challenging process and may require education and support to ensure that open science practices are embraced and integrated into the research process.
 
 Overall, while open science has the potential to drive innovation and impact, it also presents a number of challenges for researchers.
- >
 
 ***Learning**
 
-_What are your learning goals in the Open Life Science program? Please respond in a maximum of 200 words. You can use MarkDown formatting (see:[ https://commonmark.org/help/](https://commonmark.org/help/))._
-
-< As a participant in the OLS program, my learning goals are :
+As a participant in the OLS program, my learning goals are :
 
 * To gain a deeper understanding of open science practices and how they can be applied in research: Through the program, I hope to learn more about the principles and benefits of open science, as well as the various tools and approaches that can be used to support open research practices.
 
@@ -133,13 +97,9 @@ _What are your learning goals in the Open Life Science program? Please respond i
 * To build a network of like-minded researchers: Through the OLS program, I hope to connect with other researchers who are interested in open science and build a network of peers and mentors who can support my work and help me to develop as a researcher.
 
 Overall, my learning goals in the OLS program are focused on developing my skills and understanding in open science practices, as well as building a network of like-minded researchers who can support and collaborate with me in my work.
-  >
 
 ***Mentor**
 
-_What do you expect from a mentor? Please respond in a maximum of 200 words. You can use MarkDown formatting (see:[ https://commonmark.org/help/](https://commonmark.org/help/))._
-
-< 
 As a participant in the Open Life Science program, some potential expectations from  a mentor  include:
 
 * Providing guidance and expertise: A mentor can provide guidance and support to help me and  the team navigate the various challenges and obstacles that may arise during the project. he can also provide expertise and insights based on his own experience in the field.
@@ -152,7 +112,6 @@ As a participant in the Open Life Science program, some potential expectations f
 
 Overall, he will  play a valuable role in supporting the team and helping us to achieve the goals for the project.
 
- >
 
 *Other OLS applications
 Have you applied to OLS before, or are you applying as an author on more than one project in this round of applications? If yes, please share the project name and which round(s) you applied to OLS in, e.g. "OLS-5, Open Science Writing Guide".
@@ -161,22 +120,14 @@ Have you applied to OLS before, or are you applying as an author on more than on
 
 ***Accessibility**
 
-_The OLS team aims to create as inclusive an environment as possible for everyone. To help us prepare effectively, please let us know if there is anything we can do to facilitate your participation. This might include sign interpreters for video calls, alternative format materials, or something else. We will provide real-time captioning using otter.ai and/or Google Slides by default. This information will not be shared with application reviewers, and will not affect whether or not you are accepted to the program._
-
-<your answer>
+This is my first time participating in this program 
 
 ***Language**
 
-_What language do you prefer for your communication during the mentoring calls?_
-
-< - English >
+ - English 
 
 ***Scheme**
 
-_Are you affiliated with or funded by any of these organisations?_ **Choose one option**_
-
 * None
-
-**All the best from the OLS team!**
 
 _License: CC BY 4.0, Open Life Science (OLS-5), 2021-2022_
