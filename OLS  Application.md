@@ -121,7 +121,7 @@ Have you applied to OLS before, or are you applying as an author on more than on
 
 ***Accessibility***
 
-This is my first time participating in this program 
+N/A
 
 ***Language***
 
