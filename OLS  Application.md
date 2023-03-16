@@ -17,7 +17,7 @@ Uganda
 
 ***Affiliation***
 
-Project developed by Dushime Mudahera Richard ( Bugema University)
+Project To be developed by Opensource enthousiast & Dushime Mudahera Richard ( Bugema University)
 
 ***Pronouns***
 
@@ -131,4 +131,4 @@ N/A
 
 * None
 
-_License: CC BY 4.0, Open Life Science (OLS-5), 2021-2022_
+_License: CC BY 4.0, Open Life Science (OLS-7), 2021-2023_
