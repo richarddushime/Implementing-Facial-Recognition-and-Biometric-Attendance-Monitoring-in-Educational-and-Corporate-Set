@@ -1,6 +1,6 @@
-# Implementing-Facial-Recognition-and-Biometric-Attendance-Monitoring-in-Educational-and-Corporate-Settings
+# Implementing Facial Recognition and Biometric Attendance Monitoring in Educational and Corporate Settings
 
-## Vison Statement
+## Vision Statement
 **We envision an innovative and user-friendly application that simplifies attendance tracking and eliminates the need for traditional paper-based systems. By leveraging advanced facial recognition and biometric technologies, we aim to revolutionize attendance management in educational and corporate settings, empowering administrators with real-time insights and improving the overall experience for students and employees alike.**
 
 ***Problem***
