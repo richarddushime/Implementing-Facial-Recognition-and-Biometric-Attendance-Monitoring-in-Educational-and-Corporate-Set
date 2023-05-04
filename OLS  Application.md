@@ -9,7 +9,7 @@
 > This project aims to design and implement a system for tracking attendance using facial recognition or biometric technology in educational and corporate settings, considering the technical, ethical, and privacy implications of using such technology. 
 
 ***Authors***
-Dushime Mudahera Richard 
+Dushime Mudahera Richard | IMS| DN |
 
 ***Country***
 
@@ -17,7 +17,7 @@ Uganda
 
 ***Affiliation***
 
-Project To be developed by Opensource enthousiast & Dushime Mudahera Richard ( Bugema University)
+Project To be developed by Opensource enthousiast 
 
 ***Pronouns***
 
