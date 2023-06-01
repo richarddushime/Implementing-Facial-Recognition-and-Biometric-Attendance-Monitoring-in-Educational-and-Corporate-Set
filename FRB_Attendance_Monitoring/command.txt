@@ -1,0 +1,2 @@
+windowss powershell command to use if the virtualenv can not load 
+Set-ExecutionPolicy Unrestricted -Scope Process
