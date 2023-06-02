@@ -1,0 +1,77 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Facial Recognition System </title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <style>
+        body {
+            background: url('{% static "images/bg.png" %}') no-repeat center center fixed;
+            background-size: cover;
+            
+        }
+        img {
+            float: left;
+        }
+        section {
+            padding-top: 20%;
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+<section>
+    <div  class="col-lg-6 md-3" 
+    style="background: rgba(0,0,0,0.6);
+            margin:auto;
+            padding-top:1.5em;
+            padding-bottom:1.5em;
+            color:#fff;
+            border-radius:10px;
+            -webkit-box-shadow: 2px 2px 15px 0px rgba(0, 3, 0, 0.7);
+            -moz-box-shadow:    2px 2px 15px 0px rgba(0, 3, 0, 0.7);
+            box-shadow:         2px 2px 15px 0px rgba(0, 3, 0, 0.7);
+            justify-content: center;
+            align-items: center; 
+            width:600px; 
+            height:220px;">
+        <div class="col-sm-12">
+            <img src='{% static "images/logo.png" %}' sizes="16x16" width="100px" height="100px" >
+            <h2 class="text-center section-title"> OLS COHORT 7 PROJECT  </h2>
+        </div>
+        <div class="col md-3"> 
+                  <p class="text-center ">We envision an innovative and user-friendly application that simplifies attendance tracking and eliminates the need for traditional paper-based systems.</p>
+                <h4 class="text-center ">
+                    <a class="btn btn-primary" href="#" role="button">Get Started</a>
+                </h4>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
