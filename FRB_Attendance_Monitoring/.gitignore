@@ -1,6 +1,6 @@
 # Created by https://www.gitignore.io
 ## virtualenv
-.venv
+venv/
 
 ### OSX ###
 .DS_Store
