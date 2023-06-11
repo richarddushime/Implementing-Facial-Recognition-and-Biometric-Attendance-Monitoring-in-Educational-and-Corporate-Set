@@ -27,4 +27,5 @@ jobs:
         pip install -r win_requirements.txt
     - name: Run Tests
       run: |
+        cd FRB_Attendance_Monitoring
         python manage.py test
