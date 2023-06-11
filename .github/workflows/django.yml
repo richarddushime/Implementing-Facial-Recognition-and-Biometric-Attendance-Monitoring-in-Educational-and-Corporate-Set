@@ -24,6 +24,7 @@ jobs:
     - name: Install Dependencies
       run: |
         cd FRB_Attendance_Monitoring
+        
         pip install -r win_requirements.txt
     - name: Run Tests
       run: |
