@@ -2,7 +2,6 @@ from django.shortcuts import render, redirect, reverse
 from .email_backend import EmailBackend
 from django.contrib import messages
 from .forms import CustomUserForm
-from voting.forms import studentForm
 from django.contrib.auth import login, logout
 # Create your views here.
 
@@ -28,7 +27,7 @@ def account_login(request):
             messages.error(request, "Invalid details")
             return redirect("/")
 
-    return render(request, "students/login.html", context)
+    return render(request, "login.html", context)
 
 
 def account_register(request):
