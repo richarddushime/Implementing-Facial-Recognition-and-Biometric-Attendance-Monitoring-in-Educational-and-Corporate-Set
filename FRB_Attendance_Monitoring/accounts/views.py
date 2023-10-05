@@ -2,6 +2,8 @@ from django.shortcuts import render, redirect, reverse
 from .email_backend import EmailBackend
 from django.contrib import messages
 from .forms import CustomUserForm
+from students.forms import StudentForm
+
 from django.contrib.auth import login, logout
 # Create your views here.
 
@@ -31,16 +33,14 @@ def account_login(request):
 
 
 def account_register(request):
-    userForm = CustomUserForm(request.POST or None)
-    studentForm = studentForm(request.POST or None)
+    form = StudentForm(request.POST or None)
     context = {
-        'form1': userForm,
-        'form2': studentForm
+        'form': form
     }
     if request.method == 'POST':
-        if userForm.is_valid() and studentForm.is_valid():
+        if userForm.is_valid() and StudentForm.is_valid():
             user = userForm.save(commit=False)
-            student = studentForm.save(commit=False)
+            student = StudentForm.save(commit=False)
             student.admin = user
             user.save()
             student.save()
@@ -49,7 +49,7 @@ def account_register(request):
         else:
             messages.error(request, "Provided data failed validation")
             # return account_login(request)
-    return render(request, "stdent/reg.html", context)
+    return render(request, "account_register.html", context)
 
 
 def account_logout(request):
