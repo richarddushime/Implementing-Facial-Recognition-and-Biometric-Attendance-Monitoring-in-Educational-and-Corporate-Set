@@ -1,0 +1,17 @@
+repos:
+  -   repo: https://github.com/pre-commit/mirrors/black
+      rev: stable
+      hooks:
+      -   id: black
+  -   repo: https://github.com/pre-commit/mirrors/isort
+      rev: stable
+      hooks:
+      -   id: isort
+  -   repo: https://github.com/pre-commit/mirrors/flake8
+      rev: v3.9.2
+      hooks:
+      -   id: flake8
+  -   repo: https://github.com/pre-commit/mirrors/pylint
+      rev: v2.11.1
+      hooks:
+      -   id: pylint
