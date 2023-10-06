@@ -4,8 +4,6 @@ from django.contrib import messages
 from .forms import CustomUserForm
 from voting.forms import studentForm
 from django.contrib.auth import login, logout
-# Create your views here.
-
 
 def account_login(request):
     if request.user.is_authenticated:
@@ -16,9 +14,8 @@ def account_login(request):
 
     context = {}
     if request.method == 'POST':
-        user = EmailBackend.authenticate(request, username=request.POST.get(
-            'email'), password=request.POST.get('password'))
-        if user != None:
+        user = EmailBackend.authenticate(request, username=request.POST.get('email'), password=request.POST.get('password'))
+        if user is not None:
             login(request, user)
             if user.user_type == '1':
                 return redirect(reverse("staffDashboard"))
@@ -26,7 +23,6 @@ def account_login(request):
                 return redirect(reverse("studentDashboard"))
         else:
             messages.error(request, "Invalid details")
-            return redirect("/")
 
     return render(request, "students/login.html", context)
 
@@ -45,21 +41,19 @@ def account_register(request):
             student.admin = user
             user.save()
             student.save()
-            messages.success(request, "Account created. You can login now!")
+            messages.success(request, "Account created. You can log in now!")
             return redirect(reverse('account_login'))
         else:
             messages.error(request, "Provided data failed validation")
-            # return account_login(request)
+
     return render(request, "stdent/reg.html", context)
 
 
 def account_logout(request):
-    user = request.user
-    if user.is_authenticated:
+    if request.user.is_authenticated:
         logout(request)
-        messages.success(request, "Thank you for visiting us!")
+        messages.success(request, "You have been successfully logged out.")
     else:
-        messages.error(
-            request, "You need to be logged in to perform this action")
+        messages.error(request, "You need to be logged in to perform this action")
 
     return redirect(reverse("account_login"))
