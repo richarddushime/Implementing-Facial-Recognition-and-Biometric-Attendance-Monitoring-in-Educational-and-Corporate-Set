@@ -1,4 +1,4 @@
-from django.contrib.auth.models import AbstractUser, UserManager
+from django.contrib.auth.models import AbstractUser, UserManager, Group, Permission
 from django.db import models
 from django.contrib.auth.hashers import make_password
 from django.db.models.signals import post_save
@@ -42,6 +42,27 @@ class CustomUser(AbstractUser):
     USERNAME_FIELD = "email"
     REQUIRED_FIELDS = []
     objects = CustomUserManager()
+
+    groups = models.ManyToManyField(
+        Group,
+        verbose_name=('groups'),
+        blank=True,
+        help_text=(
+            'The groups this user belongs to. A user will get all permissions '
+            'granted to each of their groups.'
+        ),
+        related_name="customuser_set",  # <--- Here's the change!
+        related_query_name="customuser",
+    )
+
+    user_permissions = models.ManyToManyField(
+        Permission,
+        verbose_name=('user permissions'),
+        blank=True,
+        help_text=('Specific permissions for this user.'),
+        related_name="customuser_set",  # <--- And here's another one!
+        related_query_name="customuser",
+    )
 
     def __str__(self):
         return self.last_name + " " + self.first_name
