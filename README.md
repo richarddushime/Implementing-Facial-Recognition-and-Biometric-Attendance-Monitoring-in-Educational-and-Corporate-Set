@@ -30,7 +30,7 @@ If you're interested in contributing to this project, take a look at [**CONTRIBU
 If you have any questions about the  project or would like to discuss potential collaborations, 
 feel free to reach out to us through : 
 1. Issues tab or email.
-2. Slack Channel : [Link](https://join.slack.com/t/frbattendance-blf3887/shared_invite/zt-1slkes9t2-yN_f8rsVxJ5xXseT~ZptLg)
+2. Slack Channel : [Link](https://join.slack.com/t/frbattendance-blf3887/shared_invite/zt-24mgzphoi-1qVsKPJCGrPjHuJx~Ummgg)
 
 Keep an eye on The Issues tab to contribute to specific tasks or bugs.
 
