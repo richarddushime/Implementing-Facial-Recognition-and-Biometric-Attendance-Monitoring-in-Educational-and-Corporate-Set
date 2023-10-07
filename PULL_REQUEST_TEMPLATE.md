@@ -9,7 +9,7 @@ Please answer the following questions for yourself before submitting an issue.
 
 # How to test the PR
 
-Please describe hoe the PR can be tested
+Please describe how the PR can be tested
 
 # Issue 
 
