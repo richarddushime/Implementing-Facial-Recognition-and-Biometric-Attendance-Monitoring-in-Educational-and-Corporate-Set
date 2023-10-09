@@ -1,0 +1,28 @@
+The code provided in the manage.py file is the main entry point for running Django administrative tasks using the Django management command-line utility.
+Here's a breakdown of what each part of the code does:
+
+1. Shebang (!/usr/bin/env python): This line is known as a "shebang" or "hashbang" and is used in Unix-like operating systems to specify the interpreter 
+that should be used to execute the script. In this case, it specifies that the Python interpreter should be used to run the script.
+
+2. Docstring ("""Django's command-line utility for administrative tasks."""): This is a docstring, which is a multi-line string that serves as documentation 
+for the script. It provides a brief description of the script's purpose.
+
+3. Import statements: The script imports various modules and functions necessary for its operation.
+
+import os: imports the os module, which provides functions for interacting with the operating system, including setting environment variables.
+
+import sys: imports the sys module, which provides access to variables used or maintained by the interpreter and functions that interact with the Python runtime environment.
+
+4. `main()` function: This function is defined to be the entry point for running administrative tasks. It sets the Django settings module and then attempts to import and execute
+Django's management command-line utility
+
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'FRB_Attendance_Monitoring.settings'): This line sets the DJANGO_SETTINGS_MODULE environment variable to specify which Django settings
+module should be used. In this case, it's set to 'FRB_Attendance_Monitoring.settings'.
+
+try block: This block contains the main logic of the script. It attempts to import execute_from_command_line from django.core.management. If Django is not installed or cannot be imported,
+It raises an import error and provides a helpful error message.
+
+5. if __name__ == '__main__': block: This block ensures that the main() function is only called if the script is executed directly, rather than when it's imported as a module into another script.
+
+main(): If the script is executed directly (not imported), it calls the main() function, which sets up the Django environment and executes administrative tasks based on the command-line arguments provided.
+
