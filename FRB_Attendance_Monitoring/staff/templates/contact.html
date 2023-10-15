@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block title %}
+Contact - Facial Recognition System
+{% endblock %}
+
+{% block content %}
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="card rounded">
+          <div class="card-header text-center">
+            <h4>Contact Admin</h4>
+          </div>
+          <div class="card-body">
+            <form value="">
+              <div class="form-group">
+                <label for="full_name">Full Name</label>
+                <input type="text" class="form-control" id="full_name" placeholder="Enter full name">
+              </div>
+              <div class="form-group">
+                <label for="preferred_username">Preferred Username</label>
+                <input type="text" class="form-control" id="preferred_username" placeholder="Enter preferred username">
+              </div>
+              <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter email">
+              </div>
+              <div class="form-group">
+                <label for="title">Title</label>
+                <input type="text" class="form-control" id="title" placeholder="Enter title">
+              </div>
+              <div class="form-group">
+                <label for="comment">Comment</label>
+                <textarea class="form-control" id="comment" rows="3"></textarea>
+              </div>
+              <div class="text-center">
+                <button type="submit" class="btn btn-primary">Submit Request</button>
+                <p class="pt-3">Thanks for contacting Us we Will get back to you soon!!</p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
