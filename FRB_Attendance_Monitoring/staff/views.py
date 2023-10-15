@@ -6,3 +6,6 @@ def index(request):
 
 def staff_dashboard(request):
     return render(request, 'staff_dashboard.html')
+
+def admincontact(request):
+    return render(request, 'contact.html')
