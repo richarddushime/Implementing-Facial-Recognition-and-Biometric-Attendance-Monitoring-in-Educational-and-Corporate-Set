@@ -4,3 +4,6 @@ from django.shortcuts import render
 
 def index(request):
     return render(request, 'home.html')
+
+def student_dashboard(request):
+    return render(request, 'student_dashboard.html')
