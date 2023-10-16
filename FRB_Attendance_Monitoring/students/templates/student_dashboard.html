@@ -30,7 +30,7 @@
 box-shadow:         2px 2px 15px 0px rgba(0, 3, 0, 0.7);">
     <div class="col-sm-12">
        <a href=""><h5 class="text-right"><i class="fa fa-user-circle" aria-hidden="true"></i> Logout</h5></a>
-      <h1 class="text-center section-title" style="margin-bottom:2em">Welcome, {{user.username}}.</h1>
+      <h1 class="text-center section-title" style="margin-bottom:2em">Welcome,username</h1>
     </div>
      <style>
       h4{
@@ -110,13 +110,9 @@ box-shadow:         2px 2px 15px 0px rgba(0, 3, 0, 0.7);">
 
 </div>
 
- {% if messages %}
-      {% for message in messages%}
-      <div class="alert alert-{{message.tags}}" > {{message}}
+      <div class="alert alert-{{message.tags}}" > 
       </div>
-      {%endfor %}
-
-    {%endif%}
+     
 
 
 </div>
