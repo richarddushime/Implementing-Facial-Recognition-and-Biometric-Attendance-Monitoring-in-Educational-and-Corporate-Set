@@ -1,5 +1,5 @@
 from django import forms
-from .models import *
+from accounts.models import *
 
 
 class FormSettings(forms.ModelForm):

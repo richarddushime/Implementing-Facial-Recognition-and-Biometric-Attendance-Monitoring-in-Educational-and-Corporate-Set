@@ -6,15 +6,21 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-6">
-            <div class="card rounded">
+            <div class="card rounded pt-8">
                 <div class="card-header text-center">
                     <h4>Register</h4>
                 </div>
                 <div class="card-body">
                     <form method="post">
                         {% csrf_token %}
+                        {% for field in form %}
+                            <div class="form-group">
+                                {{ field.label }}
+                                <div>{{ field }}</div>
+                            </div>
+                        {% endfor %}
                         
-                        <div class="form-group">
+                        {% comment %} <div class="form-group">
                             {{ form.full_name.label_tag }}
                             {{ form.full_name }}
                         </div>
@@ -42,7 +48,7 @@
                         <div class="form-group">
                             {{ form.major.label_tag }}
                             {{ form.major }}
-                        </div>
+                        </div> {% endcomment %}
 
                         <div class="text-center">
                             <button type="submit" class="btn btn-primary">Register</button>
