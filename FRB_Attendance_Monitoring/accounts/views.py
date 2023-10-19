@@ -40,8 +40,8 @@ def account_register(request):
     if request.method == 'POST':
         if form.is_valid():
             user = form.save(commit=False)
-            # student = StudentForm.save(commit=False)
-            # student.admin = user
+            student = StudentForm.save(commit=False)
+            student.admin = user
             messages.success(request, "Account created. You can login now!")
             return redirect(reverse('account_login'))
         else:
