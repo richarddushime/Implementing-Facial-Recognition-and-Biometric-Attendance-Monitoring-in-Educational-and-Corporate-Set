@@ -13,17 +13,17 @@
                 <div class="card-body">
                     <form method="post">
                         {% csrf_token %}
-                        
-                        <div class="form-group">
-                            {{ form.full_name.label_tag }}
-                            {{ form.full_name }}
-                        </div>
+                        <div class="form-row">
+                            <div class="col">
+                                {{ form.full_name.label_tag }}
+                                {{ form.full_name }}
+                            </div>
 
-                        <div class="form-group">
-                            {{ form.id_number.label_tag }}
-                            {{ form.id_number }}
+                            <div class="col">
+                                {{ form.id_number.label_tag }}
+                                {{ form.id_number }}
+                            </div>
                         </div>
-
                         <div class="form-group">
                             {{ form.email.label_tag }}
                             {{ form.email }}
@@ -33,17 +33,18 @@
                             {{ form.date_of_birth.label_tag }}
                             {{ form.date_of_birth }}
                         </div>
+                        <div class="form-row">
+                            <div class="col">
+                                {{ form.course_unit.label_tag }}
+                                {{ form.course_unit }}
+                            </div>
 
-                        <div class="form-group">
-                            {{ form.course_unit.label_tag }}
-                            {{ form.course_unit }}
+                            <div class="col">
+                                {{ form.major.label_tag }}
+                                {{ form.major }}
+                            </div>
                         </div>
-
-                        <div class="form-group">
-                            {{ form.major.label_tag }}
-                            {{ form.major }}
-                        </div>
-
+                        <br>
                         <div class="text-center">
                             <button type="submit" class="btn btn-primary">Register</button>
                             <p class="pt-3">Already have an account? </p>
