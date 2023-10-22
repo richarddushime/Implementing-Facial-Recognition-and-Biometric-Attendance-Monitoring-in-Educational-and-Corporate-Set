@@ -4,7 +4,7 @@ from django.urls import reverse
 class IndexViewTest(TestCase):
     def test_index_view(self):
         # Use the reverse function to get the URL for the 'index' view
-        url = reverse('index')
+        url = reverse('home')
 
         # Perform a GET request to the 'index' view
         response = self.client.get(url)
