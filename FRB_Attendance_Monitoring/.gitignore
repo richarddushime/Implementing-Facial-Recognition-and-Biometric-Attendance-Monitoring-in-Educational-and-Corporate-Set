@@ -2,10 +2,11 @@
 ## virtualenv
 venv/
 FRB_Attendance_Monitoring/__pycache__
-staff/__pycache__/
-students/__pycache__/
-accounts/__pycache__/
-accounts/migrations/
+staff/__pycache__
+students/__pycache__
+accounts/__pycache__
+accounts/migrations
+students/migrations/
 ### OSX ###
 .DS_Store
 .AppleDouble
