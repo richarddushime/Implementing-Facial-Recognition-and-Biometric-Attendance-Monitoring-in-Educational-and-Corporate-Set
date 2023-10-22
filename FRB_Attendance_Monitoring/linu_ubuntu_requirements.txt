@@ -71,9 +71,6 @@ six==1.16.0
 sqlparse==0.4.3
 systemd-python==234
 threadpoolctl==3.1.0
-torbrowser-launcher==0.3.3
-ubuntu-advantage-tools==8001
-ubuntu-drivers-common==0.0.0
 ufw==0.36.1
 unattended-upgrades==0.1
 urllib3==1.26.5
