@@ -1,0 +1,7 @@
+{
+    "python.testing.pytestArgs": [
+        "FRB_Attendance_Monitoring"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
+}

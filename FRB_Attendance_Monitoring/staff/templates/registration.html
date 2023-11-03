@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Staff Registtration page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+{% extends 'base.html' %}
+{% block content %}
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-md-offset-4">
+        {% if messages %}
+          {% for message in messages %}
+            <div class="alert alert-{{ message.tags }}">
+              {{ message }}
+            </div>
+          {% endfor %}
+        {% endif %}
+        <h1 class="text-center">Registration Form</h1>
+        <form method="post" class="form-horizontal">
+          {% csrf_token %}
+          {(for)}
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+              <h3>Register</h3>
+              <label for="firstname">firstname:</label>
+              <input type="text" class="form-control" name="firstname" id="firstname">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="lastname">lastname:</label>
+            <input type="text" class="form-control" name="lastname" id="lastname">
+          </div>
+          <div class="form-group">
+            <div class="form-group">
+              <label for="id-number">id-number:</label>
+              <input type="text" class="form-control" name="id-number" id="id-number">
+            </div>
+            <div class="form-group">
+              <label for="email">email:</label>
+              <input type="text" class="form-control" name="email" id="email">
+            </div>
+            <div class="form-group">
+              <label for="password">Password:</label>
+              <input type="password" class="form-control" name="password" id="password">
+            </div>
+            <button type="submit" class="btn btn-primary">Register</button>
+          </div>
+        </form>
+      </div>
+      <div class="col-md-4 col-md-offset-4">
+        <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-10">
+            <h3>Log In</h3>
+            <a href="{% url 'login' %}">Log In</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
