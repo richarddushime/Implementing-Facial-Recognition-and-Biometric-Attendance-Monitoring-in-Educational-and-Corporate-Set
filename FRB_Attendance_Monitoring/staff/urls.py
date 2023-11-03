@@ -1,9 +1,8 @@
 
 from django.urls import path
 from . import views
+from .views import adminstaff_registration
 
 urlpatterns = [
-    path('',views.index, name="index" ),
-    path('staff_dashboard/',views.staff_dashboard, name="staff_dashboard"),
-    path('admincontact/', views.admincontact, name="admincontact"),
+    path('register/', adminstaff_registration, name='adminstaff_registration'),
 ]
